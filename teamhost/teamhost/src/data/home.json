@@ -78,5 +78,37 @@
       "lastActive": "5 days ago",
       "buttonType": "manage"
     }
+  ],
+  "store": [
+    {
+      "id": 1,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/store-1.jpg",
+      "title": "Struggle of Rivalry",
+      "description": "Shooter / Platformer",
+      "price": 4.99
+    },
+    {
+      "id": 2,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/store-2.jpg",
+      "title": "Hunt of Duplicity",
+      "description": "Action / Adventure",
+      "price": 9.99
+    }
+  ],
+  "popularGroups": [
+    {
+      "id": 1,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/group-1.jpg",
+      "title": "Season of the Witch",
+      "description": "Public Group",
+      "members": 756
+    },
+    {
+      "id": 2,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/group-2.jpg",
+      "title": "Tourist Attractions",
+      "description": "Public Group",
+      "members": 34
+    }
   ]
 } 
