@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/game-1.png",
+      "team1": {
+        "name": "GLADIATOR",
+        "logo": "https://pro-theme.com/html/teamhost/assets/images/team-1.png"
+      },
+      "team2": {
+        "name": "KNIGHTS",
+        "logo": "https://pro-theme.com/html/teamhost/assets/images/team-2.png"
+      },
+      "stage": "GROUP STAGE"
+    },
+    {
+      "id": 2,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/game-2.png",
+      "team1": {
+        "name": "DRAGONS",
+        "logo": "https://pro-theme.com/html/teamhost/assets/images/team-3.png"
+      },
+      "team2": {
+        "name": "PHOENIX",
+        "logo": "https://pro-theme.com/html/teamhost/assets/images/team-4.png"
+      },
+      "stage": "GROUP STAGE"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/news-1.jpg",
+      "category": "Cyber Games",
+      "title": "Warring factions have brought the Origin System to the brink of destruction."
+    },
+    {
+      "id": 2,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/news-2.jpg",
+      "category": "Game of Thrones",
+      "title": "Epic battles and strategic warfare in the medieval fantasy world."
+    }
+  ],
+  "communities": [
+    {
+      "id": 1,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/community-1.jpg",
+      "type": "Hidden Group",
+      "title": "Worldwide Cities",
+      "stats": {
+        "posts": 235,
+        "members": 678
+      },
+      "lastActive": "1 months ago",
+      "buttonType": "join"
+    },
+    {
+      "id": 2,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/community-2.jpg",
+      "type": "Private Group",
+      "title": "Season of the Witch",
+      "stats": {
+        "posts": 235,
+        "members": 678
+      },
+      "lastActive": "2 months ago",
+      "buttonType": "request"
+    },
+    {
+      "id": 3,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/community-3.jpg",
+      "type": "Public Group",
+      "title": "Tourist Attractions",
+      "stats": {
+        "posts": 235,
+        "members": 678
+      },
+      "lastActive": "5 days ago",
+      "buttonType": "manage"
+    }
+  ]
+} 

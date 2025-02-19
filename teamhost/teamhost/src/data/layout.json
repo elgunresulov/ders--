@@ -1,0 +1,167 @@
+{
+  "header": {
+    "logo": {
+      "image": "https://pro-theme.com/html/teamhost/assets/images/logo.png",
+      "text": "TEAMHOST"
+    },
+    "language": {
+      "current": {
+        "code": "en",
+        "name": "ENGLISH",
+        "flag": "https://pro-theme.com/html/teamhost/assets/images/en.png"
+      },
+      "options": [
+        {
+          "code": "en",
+          "name": "English",
+          "flag": "https://pro-theme.com/html/teamhost/assets/images/en.png"
+        },
+        {
+          "code": "tr",
+          "name": "Türkçe",
+          "flag": "https://pro-theme.com/html/teamhost/assets/images/tr.png"
+        },
+        {
+          "code": "de",
+          "name": "Deutsch",
+          "flag": "https://pro-theme.com/html/teamhost/assets/images/de.png"
+        }
+      ]
+    },
+    "profile": {
+      "name": "JACK",
+      "image": "https://pro-theme.com/html/teamhost/assets/images/profile.jpg",
+      "menu": [
+        {
+          "id": 1,
+          "title": "My Profile",
+          "link": "/profile"
+        },
+        {
+          "id": 2,
+          "title": "Settings",
+          "link": "/settings"
+        },
+        {
+          "id": 3,
+          "title": "Logout",
+          "link": "/logout"
+        }
+      ]
+    }
+  },
+  "sidebar": {
+    "sections": [
+      {
+        "id": 1,
+        "title": "",
+        "items": [
+          {
+            "id": 1,
+            "icon": "FaHome",
+            "text": "Home",
+            "link": "/",
+            "active": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "ACCOUNT",
+        "items": [
+          {
+            "id": 1,
+            "icon": "FaUser",
+            "text": "Profile",
+            "link": "/profile"
+          },
+          {
+            "id": 2,
+            "icon": "FaHeart",
+            "text": "Favourites",
+            "link": "/favourites",
+            "badge": "15"
+          },
+          {
+            "id": 3,
+            "icon": "FaComments",
+            "text": "Chats",
+            "link": "/chats"
+          },
+          {
+            "id": 4,
+            "icon": "FaUserFriends",
+            "text": "Friends",
+            "link": "/friends"
+          },
+          {
+            "id": 5,
+            "icon": "FaWallet",
+            "text": "Wallet",
+            "link": "/wallet"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "MAIN",
+        "items": [
+          {
+            "id": 1,
+            "icon": "FaNewspaper",
+            "text": "News",
+            "link": "/news"
+          },
+          {
+            "id": 2,
+            "icon": "FaUsers",
+            "text": "Community",
+            "link": "/community"
+          },
+          {
+            "id": 3,
+            "icon": "FaUserCircle",
+            "text": "Members",
+            "link": "/members"
+          },
+          {
+            "id": 4,
+            "icon": "FaStore",
+            "text": "Store",
+            "link": "/store"
+          },
+          {
+            "id": 5,
+            "icon": "FaShoppingCart",
+            "text": "Market",
+            "link": "/market"
+          },
+          {
+            "id": 6,
+            "icon": "FaVideo",
+            "text": "Streams",
+            "link": "/streams"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "SUPPORT",
+        "items": [
+          {
+            "id": 1,
+            "icon": "FaFlag",
+            "text": "Report",
+            "link": "/report"
+          },
+          {
+            "id": 2,
+            "icon": "FaQuestionCircle",
+            "text": "Help",
+            "link": "/help"
+          }
+        ]
+      }
+    ]
+  }
+} 

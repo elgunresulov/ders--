@@ -1,0 +1,88 @@
+{
+  "gameCards": [
+    {
+      "id": 1,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/community-1.jpg",
+      "type": "Public Group",
+      "title": "Season of the Witch",
+      "stats": {
+        "posts": 235,
+        "members": 678
+      },
+      "status": "join"
+    },
+    {
+      "id": 2,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/community-2.jpg",
+      "type": "Public Group",
+      "title": "Tourist Attractions",
+      "stats": {
+        "posts": 235,
+        "members": 678
+      },
+      "status": "manage"
+    },
+    {
+      "id": 3,
+      "image": "https://pro-theme.com/html/teamhost/assets/images/community-3.jpg",
+      "type": "Public Group",
+      "title": "Developers Club",
+      "stats": {
+        "posts": 235,
+        "members": 678
+      },
+      "status": "join"
+    }
+  ],
+  "lists": [
+    {
+      "id": 1,
+      "icon": "S",
+      "type": "strategy",
+      "name": "Strateji Oyunları"
+    },
+    {
+      "id": 2,
+      "icon": "A",
+      "type": "action",
+      "name": "Aksiyon Oyunları"
+    },
+    {
+      "id": 3,
+      "icon": "M",
+      "type": "multiplayer",
+      "name": "Çok Oyunculu Oyunlar"
+    },
+    {
+      "id": 4,
+      "icon": "B",
+      "type": "best",
+      "name": "En İyi Oyunlar"
+    },
+    {
+      "id": 5,
+      "icon": "R",
+      "type": "racing",
+      "name": "Yarış Oyunları"
+    }
+  ],
+  "filters": {
+    "sortOptions": [
+      { "value": "price", "label": "Fiyata Göre Sırala" },
+      { "value": "name", "label": "İsme Göre Sırala" },
+      { "value": "date", "label": "Tarihe Göre Sırala" }
+    ],
+    "categories": [
+      { "value": "all", "label": "Kategori: Tümü" },
+      { "value": "action", "label": "Aksiyon" },
+      { "value": "strategy", "label": "Strateji" },
+      { "value": "sports", "label": "Spor" }
+    ],
+    "platforms": [
+      { "value": "all", "label": "Platform: Tümü" },
+      { "value": "pc", "label": "PC" },
+      { "value": "console", "label": "Konsol" },
+      { "value": "mobile", "label": "Mobil" }
+    ]
+  }
+} 

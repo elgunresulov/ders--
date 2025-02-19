@@ -1,0 +1,86 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Lester Barry",
+    "username": "@username",
+    "joinDate": "4 YEARS, 6 MONTHS AGO",
+    "avatar": "https://pro-theme.com/html/teamhost/assets/images/profile.jpg",
+    "banner": "https://pro-theme.com/html/teamhost/assets/images/profile-bg.jpg",
+    "stats": {
+      "followers": 24,
+      "posts": 12
+    }
+  },
+  "navigation": [
+    {
+      "id": 1,
+      "title": "Overview",
+      "link": "#",
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "Info",
+      "link": "#",
+      "active": false
+    },
+    {
+      "id": 3,
+      "title": "Activity",
+      "link": "#",
+      "active": false
+    },
+    {
+      "id": 4,
+      "title": "Friends",
+      "link": "#",
+      "active": false
+    },
+    {
+      "id": 5,
+      "title": "Groups",
+      "link": "#",
+      "active": false
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "author": {
+        "name": "Lester Barry",
+        "avatar": "https://pro-theme.com/html/teamhost/assets/images/profile.jpg"
+      },
+      "timeAgo": "12 days ago",
+      "content": "Men are simple things. They can survive a whole weekend with only three things: beer, boxer shorts and batteries for the remote control. I can drive 10 miles, walk 50 feet. Turn around and before I know it, I'd be back home. Or would I? I'm not sure but that's just how it is.Sometimes I wonder if I really can. But then I think to myself, maybe I can't. But if I could, that would be good. Maybe it's all a lie?"
+    },
+    {
+      "id": 2,
+      "author": {
+        "name": "Lester Barry",
+        "avatar": "https://pro-theme.com/html/teamhost/assets/images/profile.jpg"
+      },
+      "timeAgo": "17 days ago",
+      "content": "Turn around and before I know it, I'd be back home. Or would I? I'm not sure but that's just how it is.Sometimes I wonder if I really can. But then I think to myself, maybe I can't. But if I could, that would be good. Maybe it's all a lie?"
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Kristen Oswalt",
+      "joinDate": "Dec 15, 2020",
+      "avatar": "https://pro-theme.com/html/teamhost/assets/images/friend-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Emma Stone",
+      "joinDate": "Jan 15, 2022",
+      "avatar": "https://pro-theme.com/html/teamhost/assets/images/friend-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Lester Barry",
+      "joinDate": "Feb 15, 2021",
+      "avatar": "https://pro-theme.com/html/teamhost/assets/images/friend-3.jpg"
+    }
+  ]
+} 
