@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import Home from './pages/Home';
 import './App.css';
 import Profile from './pages/Profile';
 import Favourites from './pages/Favourites';
@@ -11,6 +10,7 @@ import Community from './pages/Community';
 import Members from './components/Members';
 import Store from './components/Store';
 import Chat from './pages/Chat';
+import Help from './components/Help';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <div className="app-container">
         <Layout>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Profile />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/favourites" element={<Favourites />} />
             <Route path="/friends" element={<Friends />} />
@@ -28,6 +28,8 @@ function App() {
             <Route path="/members" element={<Members />} />
             <Route path="/store" element={<Store />} />
             <Route path="/chats" element={<Chat />} />
+            <Route path="/help" element={<Help />} />
+            
             {/* Diğer sayfalar için route'lar buraya eklenecek */}
           </Routes>
 

@@ -128,6 +128,7 @@ export default function Friends() {
                         <button className="btn btn-link text-secondary p-2">
                           <FiMoreHorizontal className="w-5 h-5" />
                         </button>
+                        
                       </div>
                     </div>
                   </div>
@@ -155,14 +156,15 @@ export default function Friends() {
                     <div className="d-flex gap-2">
                       <button className="btn btn-success rounded-circle p-2" style={{ width: '40px', height: '40px', padding: '0' }}>
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
                         </svg>
                       </button>
                       <button className="btn btn-danger rounded-circle p-2" style={{ width: '40px', height: '40px', padding: '0' }}>
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                       </button>
+                      
                     </div>
                   </div>
                 ))}
@@ -174,3 +176,10 @@ export default function Friends() {
     </div>
   );
 } 
+
+
+
+
+
+
+
