@@ -177,6 +177,10 @@
   gap: 0.5rem;
   cursor: pointer;
   position: relative;
+  max-width: 10%;
+  height: auto;
+
+
 }
 
 .profile-container:hover .profile-dropdown {
@@ -198,7 +202,7 @@
 }
 
 .profile-header {
-  padding: 1rem;
+  padding: 0.5rem;
   border-bottom: 1px solid #eee;
 }
 
@@ -338,7 +342,7 @@
 
 .event-card {
   position: relative;
-  width: 100%;
+  width: 1000px;
   height: 400px;
   background: #1a1a1a;
   border-radius: 12px;
@@ -407,6 +411,7 @@
 
 .news-card {
   position: relative;
+  width: 1000px;
   height: 300px;
   border-radius: 12px;
   overflow: hidden;
@@ -645,7 +650,11 @@
   background: var(--white);
   border-radius: 12px;
   overflow: hidden;
+  width: 1000px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.our-store ,.popular-groups{
+  width: 1000px;
 }
 
 .community-image {
@@ -930,8 +939,8 @@
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  
 }
-
 .profile-info img {
   width: 40px;
   height: 40px;
@@ -1914,7 +1923,6 @@
 .profile-info h1 {
   font-size: 1.8rem;
   color: #333;
-  margin-bottom: 0.5rem;
 }
 
 .profile-username {
@@ -2192,6 +2200,7 @@
 
   .profile-info h1 {
     font-size: 1.5rem;
+    padding-bottom: 30px;
   }
 
   .profile-post {
@@ -2481,4 +2490,21 @@
   --text-color: #333;
   --text-light: #666;
   --white: #ffffff;
+}
+
+/* Global Stiller */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: inherit;
 }

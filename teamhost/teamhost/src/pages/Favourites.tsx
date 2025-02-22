@@ -125,4 +125,4 @@ const Favourites: React.FC = () => {
   );
 };
 
-export default Favourites; 
+export default Favourites;

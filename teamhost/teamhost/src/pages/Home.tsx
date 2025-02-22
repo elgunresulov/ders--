@@ -189,7 +189,7 @@ const Home: React.FC = () => {
         </Swiper>
       </section>
 
-      <section className="our-store">
+      <section className="our-store ">
         <h2>Our Store</h2>
         <div className="container">
           <div className="row">

@@ -1,20 +1,20 @@
 {
   "header": {
     "logo": {
-      "image": "https://pro-theme.com/html/teamhost/assets/images/logo.png",
+      "image": "https://pro-theme.com/html/teamhost/assets/img/logo.png",
       "text": "TEAMHOST"
     },
     "language": {
       "current": {
         "code": "en",
         "name": "ENGLISH",
-        "flag": "https://pro-theme.com/html/teamhost/assets/images/en.png"
+        "flag": "https://pro-theme.com/html/teamhost/assets/img/united-kingdom.png"
       },
       "options": [
         {
           "code": "en",
           "name": "English",
-          "flag": "https://pro-theme.com/html/teamhost/assets/images/en.png"
+          "flag": "https://pro-theme.com/html/teamhost/assets/img/united-kingdom.png"
         },
         {
           "code": "tr",
@@ -30,7 +30,7 @@
     },
     "profile": {
       "name": "JACK",
-      "image": "https://pro-theme.com/html/teamhost/assets/images/profile.jpg",
+      "image": "https://pro-theme.com/html/teamhost/assets/img/profile.png",
       "menu": [
         {
           "id": 1,

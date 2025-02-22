@@ -14,9 +14,7 @@ const Profile: React.FC = () => {
           <img src={profileData.user.avatar} alt={profileData.user.name} />
         </div>
         <div className="profile-info">
-          <h1>{profileData.user.name}</h1>
-          <span className="profile-username">{profileData.user.username}</span>
-          <span className="profile-time">{profileData.user.joinDate}</span>
+          <h1 >{profileData.user.name}</h1>
         </div>
       </div>
 
@@ -43,7 +41,7 @@ const Profile: React.FC = () => {
                 <div className="post-author">
                   <img src={post.author.avatar} alt={post.author.name} />
                   <div className="post-info">
-                    <h3>{post.author.name}</h3>
+                    <h3 >{post.author.name}</h3>
                     <span>{post.timeAgo}</span>
                   </div>
                 </div>

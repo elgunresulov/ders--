@@ -2,7 +2,7 @@
   "gameCards": [
     {
       "id": 1,
-      "image": "https://pro-theme.com/html/teamhost/assets/images/community-1.jpg",
+      "image": "https://pro-theme.com/html/teamhost/assets/img/gr1.jpg",
       "type": "Public Group",
       "title": "Season of the Witch",
       "stats": {
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "image": "https://pro-theme.com/html/teamhost/assets/images/community-2.jpg",
+      "image": "https://pro-theme.com/html/teamhost/assets/img/gr2.jpg",
       "type": "Public Group",
       "title": "Tourist Attractions",
       "stats": {
@@ -24,9 +24,42 @@
     },
     {
       "id": 3,
-      "image": "https://pro-theme.com/html/teamhost/assets/images/community-3.jpg",
+      "image": "https://pro-theme.com/html/teamhost/assets/img/gr5.jpg",
       "type": "Public Group",
       "title": "Developers Club",
+      "stats": {
+        "posts": 235,
+        "members": 678
+      },
+      "status": "join"
+    },
+    {
+      "id": 4,
+      "image": "https://pro-theme.com/html/teamhost/assets/img/gr2.jpg",
+      "type": "Public Group",
+      "title": "Season of the Witch",
+      "stats": {
+        "posts": 235,
+        "members": 678
+      },
+      "status": "join"
+    },
+    {
+      "id": 5,
+      "image": "https://pro-theme.com/html/teamhost/assets/img/gr5.jpg",
+      "type": "Public Group",
+      "title": "Season of the Witch",
+      "stats": {
+        "posts": 235,
+        "members": 678
+      },
+      "status": "join"
+    },
+    {
+      "id": 6,
+      "image": "https://pro-theme.com/html/teamhost/assets/img/gr1.jpg",
+      "type": "Public Group",
+      "title": "Season of the Witch",
       "stats": {
         "posts": 235,
         "members": 678

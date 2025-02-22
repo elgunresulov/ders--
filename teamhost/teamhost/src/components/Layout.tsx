@@ -62,12 +62,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         
         <div className="header-right">
           <div className="language-selector">
-            <img 
-              src={layoutData.header.language.current.flag} 
-              alt={layoutData.header.language.current.name} 
-              className="language-flag" 
-            />
-            <span>{layoutData.header.language.current.name}</span>
+            <span>English</span>
+            <div className="language-options">
+              <div className="language-option">Germany</div>
+              <div className="language-option">Italy</div>
+            </div>
           </div>
           <div className="notification-icon">
             <FaBell />
@@ -75,8 +74,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="message-icon">
             <FaEnvelope />
           </div>
-          <div className="profile-container">
-            <img 
+          <div className="profile-container ">
+            <img  
               src={layoutData.header.profile.image} 
               alt={layoutData.header.profile.name} 
               className="profile-image" 
