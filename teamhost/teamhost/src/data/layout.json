@@ -52,19 +52,7 @@
   },
   "sidebar": {
     "sections": [
-      {
-        "id": 1,
-        "title": "",
-        "items": [
-          {
-            "id": 1,
-            "icon": "FaHome",
-            "text": "Home",
-            "link": "/",
-            "active": true
-          }
-        ]
-      },
+      
       {
         "id": 2,
         "title": "ACCOUNT",

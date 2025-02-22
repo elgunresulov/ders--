@@ -28,8 +28,6 @@ function App() {
             <Route path="/members" element={<Members />} />
             <Route path="/store" element={<Store />} />
             <Route path="/chats" element={<Chat />} />
-
-
             {/* Diğer sayfalar için route'lar buraya eklenecek */}
           </Routes>
 

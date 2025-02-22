@@ -17,14 +17,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -1643,7 +1636,7 @@
   }
 
   .mobile-menu-button {
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     width: 32px;
@@ -1671,7 +1664,7 @@
     position: fixed;
     left: -100%;
     top: 60px;
-    width: 280px;
+    width: 200px !;
     height: calc(100vh - 60px);
     z-index: 999;
     transition: all 0.3s ease;
@@ -1849,6 +1842,7 @@
   .mobile-menu-button {
     width: 28px;
     height: 28px;
+    display: flex;
   }
 
   .language-dropdown {
@@ -2640,7 +2634,7 @@
 }
 
 .list-menu {
-  color: #666;
+  color: #000000;
   cursor: pointer;
 }
 

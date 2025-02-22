@@ -96,7 +96,7 @@ const Chat: React.FC = () => {
     },
     {
       id: 2,
-      text: "I play Stronghold Kingdoms",
+      text: "I playsfsfssdfdfdv dssdfefefvdvdfvdfv sdsvsfefvdfvdfv sdssdvvdv ",
       sender: "user",
       timestamp: "10:01"
     },
