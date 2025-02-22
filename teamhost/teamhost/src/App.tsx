@@ -10,6 +10,7 @@ import Report from './components/Report';
 import Community from './pages/Community';
 import Members from './components/Members';
 import Store from './components/Store';
+import Chat from './pages/Chat';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
             <Route path="/community" element={<Community />} /> 
             <Route path="/members" element={<Members />} />
             <Route path="/store" element={<Store />} />
+            <Route path="/chats" element={<Chat />} />
+
 
             {/* Diğer sayfalar için route'lar buraya eklenecek */}
           </Routes>
