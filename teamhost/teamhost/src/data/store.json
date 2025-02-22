@@ -1,0 +1,244 @@
+{
+    "gameCards": [
+      {
+        "id": 1,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-1.jpg",
+        "type": "Shooter / Platformer",
+        "title": "Struggle of Rivalry",
+        "stats": {
+          "posts": 4.8,
+          "members": 12.99
+        },
+        "status": "join"
+      },
+      {
+        "id": 2,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-2.jpg",
+        "type": "Action / Adventure",
+        "title": "Hunt of Duplicity",
+        "stats": {
+          "posts": 4.1,
+          "members": 12.4
+        },
+        "status": "manage"
+      },
+      {
+        "id": 3,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-3.jpg",
+        "type": "Survival / Strategy",
+        "title": "Journey and Dimension",
+        "stats": {
+          "posts": 2.2,
+          "members": 20.49
+        },
+        "status": "join"
+      },
+      {
+        "id": 4,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-4.jpg",
+        "type": "Strategy",
+        "title": "Reckoning and Freedom",
+        "stats": {
+          "posts": 2.1,
+          "members": 20.49
+        },
+        "status": "join"
+      },
+      {
+        "id": 5,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-1.jpg",
+        "type": "Shooter / Platformer",
+        "title": "Struggle of Rivalry",
+        "stats": {
+          "posts": 4.8,
+          "members": 12.99
+        },
+        "status": "join"
+      },
+      {
+        "id": 1,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-1.jpg",
+        "type": "Shooter / Platformer",
+        "title": "Struggle of Rivalry",
+        "stats": {
+          "posts": 4.8,
+          "members": 12.99
+        },
+        "status": "join"
+      },
+      {
+        "id": 2,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-2.jpg",
+        "type": "Action / Adventure",
+        "title": "Hunt of Duplicity",
+        "stats": {
+          "posts": 4.1,
+          "members": 12.4
+        },
+        "status": "manage"
+      },
+      {
+        "id": 3,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-3.jpg",
+        "type": "Survival / Strategy",
+        "title": "Journey and Dimension",
+        "stats": {
+          "posts": 2.2,
+          "members": 20.49
+        },
+        "status": "join"
+      },
+      {
+        "id": 4,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-4.jpg",
+        "type": "Strategy",
+        "title": "Reckoning and Freedom",
+        "stats": {
+          "posts": 2.1,
+          "members": 20.49
+        },
+        "status": "join"
+      },
+      {
+        "id": 5,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-1.jpg",
+        "type": "Shooter / Platformer",
+        "title": "Struggle of Rivalry",
+        "stats": {
+          "posts": 4.8,
+          "members": 12.99
+        },
+        "status": "join"
+      },
+      {
+        "id": 1,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-1.jpg",
+        "type": "Shooter / Platformer",
+        "title": "Struggle of Rivalry",
+        "stats": {
+          "posts": 4.8,
+          "members": 12.99
+        },
+        "status": "join"
+      },
+      {
+        "id": 2,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-2.jpg",
+        "type": "Action / Adventure",
+        "title": "Hunt of Duplicity",
+        "stats": {
+          "posts": 4.1,
+          "members": 12.4
+        },
+        "status": "manage"
+      },
+      {
+        "id": 3,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-3.jpg",
+        "type": "Survival / Strategy",
+        "title": "Journey and Dimension",
+        "stats": {
+          "posts": 2.2,
+          "members": 20.49
+        },
+        "status": "join"
+      },
+      {
+        "id": 4,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-4.jpg",
+        "type": "Strategy",
+        "title": "Reckoning and Freedom",
+        "stats": {
+          "posts": 2.1,
+          "members": 20.49
+        },
+        "status": "join"
+      },
+      {
+        "id": 5,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-1.jpg",
+        "type": "Shooter / Platformer",
+        "title": "Struggle of Rivalry",
+        "stats": {
+          "posts": 4.8,
+          "members": 12.99
+        },
+        "status": "join"
+      },
+      {
+        "id": 1,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-1.jpg",
+        "type": "Shooter / Platformer",
+        "title": "Struggle of Rivalry",
+        "stats": {
+          "posts": 4.8,
+          "members": 12.99
+        },
+        "status": "join"
+      },
+      {
+        "id": 2,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-2.jpg",
+        "type": "Action / Adventure",
+        "title": "Hunt of Duplicity",
+        "stats": {
+          "posts": 4.1,
+          "members": 12.4
+        },
+        "status": "manage"
+      },
+      {
+        "id": 3,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-3.jpg",
+        "type": "Survival / Strategy",
+        "title": "Journey and Dimension",
+        "stats": {
+          "posts": 2.2,
+          "members": 20.49
+        },
+        "status": "join"
+      },
+      {
+        "id": 4,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-4.jpg",
+        "type": "Strategy",
+        "title": "Reckoning and Freedom",
+        "stats": {
+          "posts": 2.1,
+          "members": 20.49
+        },
+        "status": "join"
+      },
+      {
+        "id": 5,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/game-1.jpg",
+        "type": "Shooter / Platformer",
+        "title": "Struggle of Rivalry",
+        "stats": {
+          "posts": 4.8,
+          "members": 12.99
+        },
+        "status": "join"
+      }
+      
+    ],
+    "filters": {
+      "sortOptions": [
+        { "value": "price", "label": "Fiyata Göre Sırala" },
+        { "value": "name", "label": "İsme Göre Sırala" },
+        { "value": "date", "label": "Tarihe Göre Sırala" }
+      ],
+      "categories": [
+        { "value": "all", "label": "Kategori: Tümü" },
+        { "value": "action", "label": "Aksiyon" },
+        { "value": "strategy", "label": "Strateji" },
+        { "value": "sports", "label": "Spor" }
+      ],
+      "platforms": [
+        { "value": "all", "label": "Platform: Tümü" },
+        { "value": "pc", "label": "PC" },
+        { "value": "console", "label": "Konsol" },
+        { "value": "mobile", "label": "Mobil" }
+      ]
+    }
+  } 

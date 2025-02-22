@@ -9,6 +9,8 @@ import Wallet from './components/Wallet/Wallet';
 import Report from './components/Report';
 import Community from './pages/Community';
 import Members from './components/Members';
+import Store from './components/Store';
+
 function App() {
   return (
     <Router>
@@ -23,7 +25,8 @@ function App() {
             <Route path="/report" element={<Report />} />
             <Route path="/community" element={<Community />} /> 
             <Route path="/members" element={<Members />} />
-            
+            <Route path="/store" element={<Store />} />
+
             {/* Diğer sayfalar için route'lar buraya eklenecek */}
           </Routes>
 

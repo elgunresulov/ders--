@@ -1323,7 +1323,13 @@
 .CiLinkedin {
   font-size: 25px;
 }
-
+.deyer {
+  margin-left: 100px;
+  display: flex;
+}
+.x{
+  color: #e67e22 !important;
+}
 /* Button Styles */
 .button {
   width: 100%;
