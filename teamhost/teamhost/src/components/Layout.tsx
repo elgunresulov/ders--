@@ -69,10 +69,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
           </div>
           <div className="notification-icon">
-            <FaBell />
+            <FaBell path='/Friends'/>
           </div>
           <div className="message-icon">
-            <FaEnvelope />
+            <FaEnvelope path='/Chats'/>
           </div>
           <div className="profile-container ">
             <img  

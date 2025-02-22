@@ -17,7 +17,124 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.help-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.help-modal {
+  background-color: white;
+  border-radius: 8px;
+  width: 600px;
+  padding: 24px;
+}
+
+.help-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.help-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+}
+.search-input{
+  margin-left: 10px;
+}
+.close-button:hover {
+  color: #333;
+}
+
+.search-container {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 40px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.mic-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.qa-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.qa-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.qa-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.qa-item:hover {
+  background-color: #f5f5f5;
+}
+
+.file-icon {
+  color: #FF4F00;
+}
+
+.footer-links {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-link {
+  color: #FF4F00;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+} 
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -1206,6 +1323,13 @@
   display: flex;
   flex-direction: column;
 }
+.directory{
+  position: relative;
+  bottom: 200px;
+  left: 350px;
+  color: #ffffff;
+
+}
 
 .user-profile {
   padding: 20px;
@@ -1214,7 +1338,20 @@
   align-items: center;
   border-bottom: 1px solid #eee;
 }
-
+.searching{
+  padding: 13px;
+  
+}
+.yuxari{
+  height: 300px;
+  width: 100%;  
+}
+.variant{
+  position: relative;
+  bottom: 200px;
+  left: 260px;
+  color: #e3e3e3; 
+}
 .avatar {
   width: 40px;
   height: 40px;

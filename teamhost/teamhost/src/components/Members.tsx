@@ -1,84 +1,32 @@
-import React, { useState } from 'react';
-import { FaSearch, FaMicrophone, FaEllipsisH } from 'react-icons/fa';
+import React from 'react';
 import membersData from '../data/members.json';
 import { CiLinkedin,CiInstagram,CiYoutube } from "react-icons/ci";
 
 
 const Favourites: React.FC = () => {
-  const [sortBy, setSortBy] = useState('');
-  const [category, setCategory] = useState('');
-  const [platform, setPlatform] = useState('');
+
 
   return (
     <div className="favourites-page">
       {/* Başlık ve Arama Bölümü */}
       <div className="favourites-header">
-        <div className="header-left">
-          <h1>Community</h1>
-        </div>
+        
        
       </div>
 
       <div className="favourites-content">
         <div className="content-left">
           {/* Arama ve Filtreleme */}
-          <div className="search-container">
-            <div className="search-box">
-              <FaSearch className="search-icon" />
-              <input type="text" placeholder="Ara" />
-              <FaMicrophone className="mic-icon" />
-            </div>
+          <div className='hisse'>
+            <img className='yuxari' src="https://pro-theme.com/html/teamhost/assets/img/heading8.jpg" alt="" />
+            <h1 className='directory'>Members Directory</h1>
+            <h3 className='variant'>Search members from all around the world!</h3>
           </div>
 
-          {/* Filtreleme Seçenekleri */}
-          <div className="filter-options">
-            <div className="filter-group">
-              <select 
-                value={sortBy} 
-                onChange={(e) => setSortBy(e.target.value)}
-                className="filter-select"
-              >
-                <option value="">Sıralama</option>
-                {membersData.filters.sortOptions.map(option => (
-                  <option key={option.value} value={option.value}>
-                    {option.label}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div className="filter-group">
-              <select 
-                value={category} 
-                onChange={(e) => setCategory(e.target.value)}
-                className="filter-select"
-              >
-                <option value="">Kategori</option>
-                {membersData.filters.categories.map(option => (
-                  <option key={option.value} value={option.value}>
-                    {option.label}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div className="filter-group">
-              <select 
-                value={platform} 
-                onChange={(e) => setPlatform(e.target.value)}
-                className="filter-select"
-              >
-                <option value="">Platform</option>
-                {membersData.filters.platforms.map(option => (
-                  <option key={option.value} value={option.value}>
-                    {option.label}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div className="items-count">{membersData.gameCards.length} öğe</div>
-          </div>
+          
 
           {/* Oyun Kartları */}
-          <div className="games-grid ">
+          <div className="games-grid my-5">
             {membersData.gameCards.map(game => (
               <div key={game.id} className="game-card">
                 <img src={game.image}  />

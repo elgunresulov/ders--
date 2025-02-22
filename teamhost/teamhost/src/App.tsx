@@ -14,6 +14,7 @@ import Help from './components/Help';
 
 function App() {
   return (
+    <>
     <Router>
       <div className="app-container">
         <Layout>
@@ -28,7 +29,9 @@ function App() {
             <Route path="/members" element={<Members />} />
             <Route path="/store" element={<Store />} />
             <Route path="/chats" element={<Chat />} />
-            <Route path="/help" element={<Help />} />
+            <Route path="/Help" element={<Help onClose={function (): void {
+              throw new Error('Function not implemented.');
+            } } />} />
             
             {/* Diğer sayfalar için route'lar buraya eklenecek */}
           </Routes>
@@ -37,6 +40,7 @@ function App() {
 
       </div>
     </Router>
+    </>
   );
 }
 
