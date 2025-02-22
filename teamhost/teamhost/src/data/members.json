@@ -1,0 +1,111 @@
+{
+    "gameCards": [
+      {
+        "id": 1,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/user-1.png",
+        "type": "lester_barry",
+        "title": "lester_barry",
+        "stats": {
+          "posts": 235,
+          "members": 678
+        },
+        "status": "join"
+      },
+      {
+        "id": 2,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/user-2.png",
+        "type": "emma_stone",
+        "title": "emma_stone",
+        "stats": {
+          "posts": 235,
+          "members": 678
+        },
+        "status": "manage"
+      },
+      {
+        "id": 3,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/user-3.png",
+        "type": "alfred_anton",
+        "title": "alfred_anton",
+        "stats": {
+          "posts": 235,
+          "members": 678
+        },
+        "status": "join"
+      },
+      {
+        "id": 4,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/user-4.png",
+        "type": "lester_barry",
+        "title": "lester_barry",
+        "stats": {
+          "posts": 235,
+          "members": 678
+        },
+        "status": "join"
+      },
+      {
+        "id": 5,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/user-2.png",
+        "type": "emma_stone",
+        "title": "emma_stone",
+        "stats": {
+          "posts": 235,
+          "members": 678
+        },
+        "status": "join"
+      },
+      {
+        "id": 6,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/user-1.png",
+        "type": "lester_barry",
+        "title": "lester_barry",
+        "stats": {
+          "posts": 235,
+          "members": 678
+        },
+        "status": "join"
+      },
+      {
+        "id": 7,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/user-2.png",
+        "type": "emma_stone",
+        "title": "emma_stone",
+        "stats": {
+          "posts": 235,
+          "members": 678
+        },
+        "status": "join"
+      },
+      {
+        "id": 8,
+        "image": "https://pro-theme.com/html/teamhost/assets/img/user-1.png",
+        "type": "lester_barry",
+        "title": "lester_barry",
+        "stats": {
+          "posts": 235,
+          "members": 678
+        },
+        "status": "join"
+      }
+    ],
+    "filters": {
+      "sortOptions": [
+        { "value": "price", "label": "Fiyata Göre Sırala" },
+        { "value": "name", "label": "İsme Göre Sırala" },
+        { "value": "date", "label": "Tarihe Göre Sırala" }
+      ],
+      "categories": [
+        { "value": "all", "label": "Kategori: Tümü" },
+        { "value": "action", "label": "Aksiyon" },
+        { "value": "strategy", "label": "Strateji" },
+        { "value": "sports", "label": "Spor" }
+      ],
+      "platforms": [
+        { "value": "all", "label": "Platform: Tümü" },
+        { "value": "pc", "label": "PC" },
+        { "value": "console", "label": "Konsol" },
+        { "value": "mobile", "label": "Mobil" }
+      ]
+    }
+  } 

@@ -6,7 +6,9 @@ import Profile from './pages/Profile';
 import Favourites from './pages/Favourites';
 import Friends from './components/Friends';
 import Wallet from './components/Wallet/Wallet';
-
+import Report from './components/Report';
+import Community from './pages/Community';
+import Members from './components/Members';
 function App() {
   return (
     <Router>
@@ -18,6 +20,10 @@ function App() {
             <Route path="/favourites" element={<Favourites />} />
             <Route path="/friends" element={<Friends />} />
             <Route path="/wallet" element={<Wallet />} />
+            <Route path="/report" element={<Report />} />
+            <Route path="/community" element={<Community />} /> 
+            <Route path="/members" element={<Members />} />
+            
             {/* Diğer sayfalar için route'lar buraya eklenecek */}
           </Routes>
 
