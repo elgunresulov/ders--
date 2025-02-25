@@ -8,7 +8,6 @@ const Favourites: React.FC = () => {
 
   return (
     <div className="favourites-page">
-      {/* Başlık ve Arama Bölümü */}
       <div className="favourites-header">
         
        
@@ -16,7 +15,6 @@ const Favourites: React.FC = () => {
 
       <div className="favourites-content">
         <div className="content-left">
-          {/* Arama ve Filtreleme */}
           <div className='hisse'>
             <img className='yuxari' src="https://pro-theme.com/html/teamhost/assets/img/heading8.jpg" alt="" />
             <h1 className='directory'>Members Directory</h1>

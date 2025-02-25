@@ -1,21 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import './Wallet.css';
 
 const Wallet: React.FC = () => {
   return (
     <div className="teamhost-container">
-      {/* Sol Menü */}
       
 
-      {/* Ana İçerik */}
       <main className="main-content">
-        {/* Üst Bar */}
         
 
-        {/* Cüzdan İçeriği */}
         <div className="wallet-content">
-          {/* Sol Bölüm - Cüzdan */}
           <div className="wallet-section">
             <h2>Wallet</h2>
             <div className="balance-info">
@@ -44,7 +39,7 @@ const Wallet: React.FC = () => {
               </div>
             </div>
 
-            {/* Aktiviteler */}
+            
             <div className="activities-section">
               <div className="section-header">
                 <h2>Activities</h2>

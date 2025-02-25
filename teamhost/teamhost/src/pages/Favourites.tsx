@@ -9,7 +9,7 @@ const Favourites: React.FC = () => {
 
   return (
     <div className="favourites-page">
-      {/* Başlık ve Arama Bölümü */}
+      {/* lık ve Arama Bölümü */}
       <div className="favourites-header">
         <div className="header-left">
           <h1>Favorilerim</h1>

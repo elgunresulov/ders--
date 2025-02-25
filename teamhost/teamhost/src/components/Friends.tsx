@@ -49,7 +49,7 @@ export default function Friends() {
     <div className="container-fluid p-4 bg-[#1A1C20]">
       <div className="container-xl mx-auto">
         <div className="row">
-          {/* Sol taraf - Ana içerik */}
+          {/* Sol teref -  */}
           <div className="col-lg-8 mb-4 mb-lg-0">
             <div className="row mb-4">
               <div className="col">
@@ -137,7 +137,7 @@ export default function Friends() {
             </div>
           </div>
 
-          {/* Sağ taraf - Basit arkadaş listesi */}
+          {/* Sağ teref - Basit arkadaş listesi */}
           <div className="col-lg-4">
             <div className="bg-[#292B2F] rounded-3 p-4">
               <h2 className="h5 text-[#1A1C20] mb-4">Friend Requests</h2>

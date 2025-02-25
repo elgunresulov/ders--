@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaSearch, FaMicrophone, FaEllipsisH } from 'react-icons/fa';
+import { FaSearch, FaMicrophone,  } from 'react-icons/fa';
 import favouritesData from '../data/store.json';
 import { IoMdStar } from "react-icons/io";
 import { FiDollarSign } from "react-icons/fi";
@@ -12,11 +12,8 @@ const Favourites: React.FC = () => {
 
   return (
     <div className="favourites-page">
-      {/* Başlık ve Arama Bölümü */}
       <div className="favourites-header">
-        <div className="header-left">
-          <h1>Community</h1>
-        </div>
+       
        
       </div>
 

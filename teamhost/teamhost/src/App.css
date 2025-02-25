@@ -1342,9 +1342,163 @@
   padding: 13px;
   
 }
+.hisse{
+  width: 100%;
+}
 .yuxari{
   height: 300px;
   width: 100%;  
+}
+/* ... existing code ... */
+
+/* News/Latest Blog Styles */
+.latestblog {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.latest-blog-down {
+  display: flex;
+  gap: 30px;
+}
+
+.latest-blog-down-left {
+  flex: 2;
+}
+
+.latest-blog-down-right {
+  flex: 1;
+}
+
+/* Card One Styles */
+.cardone {
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.cardone img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Author and Date Styles */
+.author-date {
+  display: flex;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.author {
+  color: #666;
+  margin: 0;
+}
+
+.date {
+  color: #999;
+  margin: 0;
+}
+
+/* Link Styles */
+.modelnovu {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.modelnovu:hover {
+  color: #007bff;
+}
+
+.readmore {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.readmore:hover {
+  text-decoration: underline;
+}
+
+/* Cards Two-Three-Four Section */
+.cards-two-three-four {
+  display: flex;
+  gap: 30px;
+}
+
+.card-two-three {
+  flex: 1;
+}
+
+.cardfour {
+  flex: 1;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+/* Avatar Images */
+.avatarfour, .avatartwo, .avatarthree {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Quote Icon */
+.quote {
+  font-size: 2rem;
+  color: #007bff;
+  margin: 20px 0;
+}
+
+/* Audio Player */
+audio {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Video Container */
+.ratio {
+  margin-bottom: 20px;
+}
+
+/* Right Side Cards */
+.carfive, .carsix, .cardseven {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.bmw img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .latest-blog-down {
+    flex-direction: column;
+  }
+  
+  .cards-two-three-four {
+    flex-direction: column;
+  }
+  
+  .latest-blog-down-right {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .author-date {
+    flex-direction: column;
+    gap: 5px;
+  }
 }
 .variant{
   position: relative;
@@ -2907,4 +3061,183 @@ button:hover {
 }
 button[type="button"]:hover {
   background-color: #5a6268;
+}
+.hisse {
+    display: none !important;
+  }
+/* News/Latest Blog Styles */
+.latestblog {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.latest-blog-down {
+  display: flex;
+  gap: 30px;
+}
+
+.latest-blog-down-left {
+  flex: 2;
+}
+
+.latest-blog-down-right {
+  flex: 1;
+}
+
+/* Card One Styles */
+.cardone {
+  margin-bottom: 30px;
+}
+
+.cardone img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Author and Date Styles */
+.author-date {
+  display: flex;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.author {
+  color: #666;
+  margin: 0;
+}
+
+.date {
+  color: #999;
+  margin: 0;
+}
+
+/* Link Styles */
+.modelnovu {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.modelnovu:hover {
+  color: #007bff;
+}
+
+.readmore {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.readmore:hover {
+  text-decoration: underline;
+}
+
+/* Cards Two-Three-Four Section */
+.cards-two-three-four {
+  display: flex;
+  gap: 30px;
+}
+
+.card-two-three {
+  flex: 1;
+}
+
+.cardfour {
+  flex: 1;
+}
+
+/* Avatar Images */
+.avatarfour, .avatartwo, .avatarthree {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Quote Icon */
+.quote {
+  font-size: 2rem;
+  color: #007bff;
+  margin: 20px 0;
+}
+
+/* Audio Player */
+audio {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Video Container */
+.ratio {
+  margin-bottom: 20px;
+}
+
+/* Right Side Cards */
+.carfive, .carsix, .cardseven {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.bmw img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .latest-blog-down {
+    flex-direction: column;
+  }
+  
+  .cards-two-three-four {
+    flex-direction: column;
+  }
+  
+  .latest-blog-down-right {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .author-date {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+@media (min-width: 768px ) and (max-width: 819px) {
+  
+  .chat-container{
+    position: relative;
+    right: 150px;
+  }
+}
+@media (min-width: 768px ) and (max-width: 1024px) {
+  .chat-container{
+    position: relative;
+    right: 150px;
+    }
+  .sidebar{
+    display: none;
+
+  }
+  .mobile-menu-button{
+    display: flex;
+  }
+  .overlay.active{
+    display: block;
+  }
+  .sidebar.active{
+    display: block;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .hisse {
+    display: block !important;
+  }
 }

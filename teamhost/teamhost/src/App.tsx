@@ -11,6 +11,7 @@ import Members from './components/Members';
 import Store from './components/Store';
 import Chat from './pages/Chat';
 import Help from './components/Help';
+import News from './components/News';
 
 function App() {
   return (
@@ -29,9 +30,11 @@ function App() {
             <Route path="/members" element={<Members />} />
             <Route path="/store" element={<Store />} />
             <Route path="/chats" element={<Chat />} />
+            <Route path="/News" element={<News />} />
             <Route path="/Help" element={<Help onClose={function (): void {
               throw new Error('Function not implemented.');
             } } />} />
+
             
             {/* Diğer sayfalar için route'lar buraya eklenecek */}
           </Routes>

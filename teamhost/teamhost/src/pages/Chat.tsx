@@ -186,7 +186,7 @@ const Chat: React.FC = () => {
 
         <div className="chat-input-container">
           <button className="icon-button">😊</button>
-          <button className="icon-button">🖼️</button>
+          
           <input
             type="text"
             placeholder="Type a message"

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaSearch, FaMicrophone, FaEllipsisH } from 'react-icons/fa';
+import { FaSearch, FaMicrophone,  } from 'react-icons/fa';
 import favouritesData from '../data/favourites.json';
 
 const Favourites: React.FC = () => {
@@ -9,7 +9,6 @@ const Favourites: React.FC = () => {
 
   return (
     <div className="favourites-page">
-      {/* Başlık ve Arama Bölümü */}
       <div className="favourites-header">
         <div className="header-left">
           <h1>Community</h1>
@@ -19,7 +18,7 @@ const Favourites: React.FC = () => {
 
       <div className="favourites-content">
         <div className="content-left">
-          {/* Arama ve Filtreleme */}
+          {/*  Filtreleme */}
           <div className="search-container">
             <div className="search-box">
               <FaSearch className="search-icon" />
@@ -28,8 +27,9 @@ const Favourites: React.FC = () => {
             </div>
           </div>
 
-          {/* Filtreleme Seçenekleri */}
-          <div className="filter-options">
+          {/* Filtreleme secimi */}
+          <div className=
+          "filter-options">
             <div className="filter-group">
               <select 
                 value={sortBy} 
