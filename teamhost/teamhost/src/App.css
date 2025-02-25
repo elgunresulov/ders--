@@ -1499,6 +1499,8 @@ audio {
     flex-direction: column;
     gap: 5px;
   }
+  
+  
 }
 .variant{
   position: relative;
@@ -3240,4 +3242,514 @@ audio {
   .hisse {
     display: block !important;
   }
+}
+
+/* Market Styles */
+.market-container {
+  padding: 2rem;
+  background-color: var(--background-color);
+}
+
+.market-header {
+  margin-bottom: 2rem;
+}
+
+.market-header h1 {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+}
+
+.market-filters {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter-group label {
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.select-wrapper {
+  position: relative;
+  min-width: 200px;
+}
+
+.select-wrapper select {
+  width: 100%;
+  padding: 0.8rem 2.5rem 0.8rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  appearance: none;
+  background: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.select-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-light);
+  pointer-events: none;
+}
+
+.items-count {
+  margin-left: auto;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.market-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.market-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.market-item:hover {
+  transform: translateY(-5px);
+}
+
+.item-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-info {
+  padding: 1.5rem;
+}
+
+.item-info h3 {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.game-name {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price, .quantity {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.price span, .quantity span {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.price strong, .quantity strong {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+
+/* Upload section ile ilgili stilleri kaldırdım */
+.upload-section,
+.upload-section h2,
+.next-button,
+.next-button:hover {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .market-container {
+    padding: 1rem;
+  }
+
+  .market-filters {
+    gap: 1rem;
+  }
+
+  .filter-group {
+    width: 100%;
+  }
+
+  .select-wrapper {
+    flex: 1;
+  }
+
+  .items-count {
+    width: 100%;
+    text-align: right;
+  }
+}
+
+/* Swiper Styles */
+.mySwiper {
+  padding: 20px 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary-color);
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.swiper-pagination-bullet {
+  background: var(--text-light);
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary-color);
+  opacity: 1;
+}
+
+.market-grid .swiper-slide {
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+/* Swiper Styles */
+.market-grid {
+  padding: 20px 0;
+}
+
+.market-grid .swiper {
+  padding: 20px;
+}
+
+.market-grid .swiper-slide {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.market-grid .swiper-button-next,
+.market-grid .swiper-button-prev {
+  color: #ff4b12;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.market-grid .swiper-button-next:after,
+.market-grid .swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.market-grid .swiper-pagination-bullet {
+  background: #666;
+  opacity: 0.5;
+}
+
+.market-grid .swiper-pagination-bullet-active {
+  background: #ff4b12;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .market-grid .swiper-button-next,
+  .market-grid .swiper-button-prev {
+    display: none;
+  }
+}
+
+/* Market Grid Styles */
+.market-grid {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.market-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 20px;
+}
+
+/* Swiper Styles */
+.mySwiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  width: 100% !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ff4b12 !important;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  background: #666;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff4b12;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .market-items-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+/* Market Card Styles */
+.market-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.market-grid {
+  position: relative;
+}
+
+.market-grid .swiper {
+  padding: 20px 40px;
+}
+
+.market-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.market-item:hover {
+  transform: translateY(-5px);
+}
+
+.item-image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-info {
+  padding: 20px;
+}
+
+.item-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+.game-name {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price, .quantity {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.price span, .quantity span {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.price strong, .quantity strong {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+
+/* Swiper Navigation Styles */
+.swiper-button-next,
+.swiper-button-prev {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.swiper-pagination-bullet {
+  background: var(--text-light);
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary-color);
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .market-card {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .market-grid .swiper {
+    padding: 15px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+/* Market Swiper Styles */
+.market-swiper {
+  padding: 20px !important;
+}
+
+.market-swiper .swiper-wrapper {
+  display: flex;
+}
+
+.market-swiper .swiper-slide {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.market-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.market-item:hover {
+  transform: translateY(-5px);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ff4b12 !important;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  background: #666;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff4b12;
+  opacity: 1;
 }
